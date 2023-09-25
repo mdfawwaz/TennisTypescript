@@ -1,0 +1,50 @@
+/* Add some basic styling to the table */
+.scoreboard {
+    width: 300px;
+    border-collapse: collapse;
+    margin: 20px auto;
+  }
+  
+  /* Style the table headers (Player and Score) */
+  .scoreboard th {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Style the table rows */
+  .scoreboard tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .scoreboard tr:nth-child(odd) {
+    background-color: #fff;
+  }
+  
+  /* Style the table data (Player names and scores) */
+  .scoreboard td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Style the table header for Player names */
+  .scoreboard th:first-child {
+    border-top-left-radius: 5px;
+  }
+  
+  /* Style the table header for Score */
+  .scoreboard th:last-child {
+    border-top-right-radius: 5px;
+  }
+  
+  /* Style the table data for Player names */
+  .scoreboard td:first-child {
+    border-bottom-left-radius: 5px;
+  }
+  
+  /* Style the table data for Score */
+  .scoreboard td:last-child {
+    border-bottom-right-radius: 5px;
+  }
+  
